@@ -1,0 +1,23 @@
+Dear misha cohen (ID 4),
+
+Your flight:
+
+ID 1
+From TLV
+To Belin
+On 25/10/1991
+
+has been cancelled.
+Would you like to order any of these flights instead?
+
+From TLV
+To Belin
+
+**********    MORNING      **********
++----------+------------+-----------+
+| FlightId | Dep. date  | Dep .Time |
++----------+------------+-----------+
+| 1        | 26/10/1991 | 02:04 AM  |
++----------+------------+-----------+
+
+********** END OF MORNING  **********

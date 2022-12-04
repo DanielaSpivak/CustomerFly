@@ -1,0 +1,57 @@
+{
+	"cancelled":[
+		{
+			"FlightID":"6",
+			"DepartureDate":"2028-12-30 19:10:00.000000",
+			"LandingDate":"2022-12-30 19:10:00.000000",
+			"Status":"ONTIME",	
+			"AirportOrig":"1",
+			"AirportDest":"2",
+			"AircraftID":"8",
+			"LastUpdated":"2022-01-09 19:10:00.000000"
+			"Seats":[
+				{
+					"idSeat":"3",
+					"rowNumber":"9",
+					"seatNumber":"A",
+					"SeatStatus":"BUSSINESCLASS",
+					"busy":"false"
+					},
+					{
+					"idSeat":"1",
+					"rowNumber":"1",
+					"seatNumber":"B",
+					"SeatStatus":"BUSSINESCLASS",
+					"busy":"true"
+					
+					}
+			]
+		},
+		{
+			"FlightID":"12",
+			"DepartureDate":"2028-12-30 16:10:00.000000",
+			"LandingDate":"2022-12-30 18:10:00.000000",
+			"Status":"ONTIME",
+			"AirportOrig":"2",
+			"AirportDest":"1",
+			"AircraftID":"10",
+			"LastUpdated":"2022-01-09 19:10:00.000000"
+			"Seats":[
+				{
+					"idSeat":"7",
+					"rowNumber":"1",
+					"seatNumber":"A",
+					"SeatStatus":"BUSSINESCLASS",
+					"busy":"true"
+					},
+					{	
+					"idSeat":"8",				
+					"rowNumber":"1",
+					"seatNumber":"B",
+					"SeatStatus":"BUSSINESCLASS",
+					"busy":"true"
+					}
+			]
+		}
+	]
+}

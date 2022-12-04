@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onDragDetected="#switchBack" prefHeight="795.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Boundry.UpdatedFlights">
+   <children>
+      <Label layoutX="381.0" layoutY="37.0" text="Updated Flights">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="447.0" layoutY="436.0" text="Flight No.: " />
+      <TextField fx:id="flightNo" editable="false" layoutX="533.0" layoutY="432.0" prefHeight="26.0" prefWidth="103.0" />
+      <TableView fx:id="flightsTable" layoutX="31.0" layoutY="190.0" prefHeight="207.0" prefWidth="923.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="143.99997520446777" text="Flight number" />
+            <TableColumn fx:id="DepartureTime" prefWidth="103.20001220703125" text="Departure Time" />
+            <TableColumn fx:id="DepartureDate" prefWidth="125.5999755859375" text="Departure Date" />
+            <TableColumn fx:id="LandingTime" prefWidth="102.4000244140625" text="Landing Time" />
+            <TableColumn fx:id="LandingDate" prefWidth="171.199951171875" text="Landing Date" />
+            <TableColumn fx:id="Stauts" prefWidth="99.20001220703125" text="Stauts" />
+            <TableColumn fx:id="origID" prefWidth="85.5999755859375" text="orig ID" />
+            <TableColumn fx:id="DestenationID" prefWidth="93.60009765625" text="dest ID" />
+         </columns>
+      </TableView>
+      <AnchorPane layoutX="166.0" layoutY="470.0" prefHeight="200.0" prefWidth="716.0">
+         <children>
+            <TableView fx:id="seatTable" layoutX="123.0" prefHeight="200.0" prefWidth="440.0">
+              <columns>
+                <TableColumn fx:id="rowNumber" prefWidth="141.0" text="Row Number" />
+                <TableColumn fx:id="seatNumber" prefWidth="156.0" text="Seat Number" />
+                  <TableColumn fx:id="department" prefWidth="142.0" text="Department" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="435.0" layoutY="113.0" text="For :" />
+      <TextField fx:id="currentdate" editable="false" layoutX="487.0" layoutY="109.0" />
+      <Label layoutX="383.0" layoutY="681.0" text="Total seats in flight:" />
+      <TextField fx:id="seats" editable="false" layoutX="513.0" layoutY="677.0" prefHeight="26.0" prefWidth="72.0" />
+      <Button layoutX="48.0" layoutY="665.0" mnemonicParsing="false" onAction="#switchBack" text="Back" />
+      <Button layoutX="798.0" layoutY="686.0" mnemonicParsing="false" text="Cancel Flight" />
+   </children>
+</AnchorPane>
